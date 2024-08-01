@@ -1,8 +1,8 @@
-# React + Vite
+React Beginner Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The background color changes when pressing the button.
 
-Currently, two official plugins are available:
+Used: Props and useState hook
+Styling: Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, I created a state for the background color and a function that sets the background color based on the input from the buttons. The buttons are created as a separate component. The Button component takes the color from its props and updates the background color accordingly.
